@@ -107,6 +107,7 @@ body {
 
 .skill {
   padding: 20px;
+  padding-bottom: 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -167,11 +168,10 @@ body {
 
 .skill__list li > span {
   margin-right: 20px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   display: block;
-  width: 200px;
-  font-weight: bold;
+  width: 230px;
 }
 
 .skill__list__oracle {
@@ -199,8 +199,7 @@ body {
 }
 
 .project {
-  padding: 20px;
-  padding-bottom: 0;
+  padding: 0 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
